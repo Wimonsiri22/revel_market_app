@@ -140,7 +140,7 @@ export default class Profile extends React.Component {
         }
 
         return (
-            <ScrollView style={{ backgroundColor: '#010001', }}>
+            <ScrollView style={{ backgroundColor: '#a278b5', }}>
                 {display_data}
             </ScrollView>
         );
@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
         marginTop: 28,
         marginBottom: 28,
         alignSelf: 'center', 
-        backgroundColor: '#25aae1',
+        backgroundColor: '#381460',
         borderRadius: 60
     },
     profile_image: {

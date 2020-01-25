@@ -98,8 +98,8 @@ export default class Shop extends React.Component {
         } 
 
         return (                
-            <Content style={{ backgroundColor: '#010001', }}>
-                <Header style={{ backgroundColor: '#010001', }}>
+            <Content style={{ backgroundColor: '#a278b5', }}>
+                <Header style={{ backgroundColor: '#381460', }}>
                     <ImageBackground 
                         resizeMode='cover' 
                         source={require('../../images/bghead.png')} 
@@ -110,6 +110,7 @@ export default class Shop extends React.Component {
                 </Header>
                 <View style={{ padding: 12, }}>
                     <View style={[{ height: 48, backgroundColor: '#474648', flexDirection: 'row', borderRadius: 25, elevation: 3, }]}>
+                       {/* sert */}
                         <TextInput style={[ styles.text_font, { flex: 1, paddingLeft: 18, }]}
                             placeholder="What are you looking for ?" 
                             placeholderTextColor="#979697"
