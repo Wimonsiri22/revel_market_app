@@ -95,7 +95,7 @@ export class NewsDetail extends React.Component {
         }
 
         return (
-            <ScrollView style={{ backgroundColor: '#010001', }}>
+            <ScrollView style={{ backgroundColor: '#381460', }}>
                 <StatusBar hidden={true} />
                 {display_data} 
             </ScrollView>
